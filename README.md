@@ -1,48 +1,64 @@
-# 🤖 Slobos & Mr. Juice Aternos 24/7 Hosting Bot
 
-A Minecraft bot that helps keep an Aternos server online 24/7 by automatically joining it using a Mineflayer-based bot. Perfect for SMPs or small multiplayer servers that shut down when no players are online.
+# 🤖 Aternos AFK Bot | بوت البقاء في سيرفر Aternos
 
----
-
-## ✨ Features
-*   ✅ **Auto-Connect**: Automatically joins your server.
-*   ✅ **Infinite Uptime**: Prevents AFK kicks and server shutdowns.
-*   ✅ **Smart Reconnect**: Automatically reconnects if the internet drops or server restarts.
-*   ✅ **Render-Ready**: Includes "Self-Ping" to run 24/7 for FREE on Render.com.
-*   ✅ **Plugin Support**: Compatible with Paper/Spigot/Bukkit (auto-auth included).
+🚀 A powerful, customizable AFK bot for cracked Minecraft servers hosted on Aternos.  
+🚀 بوت قوي وقابل للتعديل للبقاء في سيرفرات ماينكرافت (بدون حساب مدفوع) على Aternos.
 
 ---
 
-## 🛠️ Requirements
-*   **GitHub Account**
-*   **Aternos Server**
-*   **Render Account** (for 24/7 hosting)
-*   **Common Sense!** 🧠        
+📺 **Full Video Guide | شرح كامل بالفيديو**  
+▶️ [Watch on YouTube | شاهد على يوتيوب](https://youtu.be/dsU5xQIYtK8)
 
 ---
 
-## 🚀 Setup Guide
+## 📌 Features | الميزات
 
-We have made setup super easy! Check out the guide below:
-
-[**Detailed Google Doc Guide**](https://docs.google.com/document/d/1Fl0dRzP6O30ehp5-QcaB11IobF8I1JJhKUipzCWiCYA/edit?tab=t.0).
-
----
-
-## ⚙️ Usage
-*   **Start**: Just turn on your Aternos server. The bot will join automatically.
-*   **Status**: Visit the Render URL to see a status dashboard.
-*   **Chat**: The bot logs chat to the console.
+- 🔁 Auto-reconnect on kick | إعادة الاتصال تلقائيًا عند الطرد
+- 💬 Sends repeated chat messages | إرسال رسائل في الدردشة بشكل متكرر
+- 🕹️ Anti-AFK movement | التحرك التلقائي لتفادي الطرد بسبب الخمول (القفز والانبطاح)
+- 🧭 Move to specific coordinates | الانتقال إلى إحداثيات محددة (اختياري)
+- ⚙️ Easy config via `settings.json` | إعداد سهل من خلال ملف `settings.json`
+- 🌐 Hosted 24/7 on Railway | يعمل 24/7 عبر Railway
 
 ---
 
-## ⚠️ Disclaimer
-This project is not affiliated with Aternos, Mojang, or Microsoft. Use at your own risk. Misuse may violate platform terms of service. This bot does not bypass Aternos queue limits; it only keeps the server active once it is online.
+## ⚙️ Configuration | الإعداد
+
+📝 All settings can be changed in `settings.json`.  
+📝 كل الإعدادات قابلة للتعديل من خلال ملف `settings.json`.
+
+You can set:  
+يمكنك تحديد:
+
+- 🌍 Server IP, port, version | عنوان السيرفر والمنفذ والإصدار
+- 👤 Bot username and type | اسم البوت ونوع الدخول (offline للحسابات المكركة)
+- 💬 Chat messages and repeat delay | الرسائل المرسلة وتكرارها
+- 🧭 Coordinates to walk to | الإحداثيات التي يمشي نحوها البوت
+- 🕹️ Anti-AFK behavior | سلوك منع الخمول
 
 ---
 
-## ❤️ Credits
-*   **Slobos (Discord: sloboscc)** — Original creator & idea. (The GOAT 🐐)
-*   **Mr.Juice (Discord: Mr.Juice3046)** — Updates, Guide, & Maintenance.
+## 🚀 How to Deploy on Railway | طريقة التشغيل عبر Railway
 
-**License**: MIT License
+1. 🛠️ Fork or clone the repo | انسخ أو فورك المستودع
+2. ✏️ Edit `settings.json` with your server info | عدّل ملف الإعدادات
+3. 🔗 Connect to [Railway](https://railway.app) | اربطه بـ Railway
+4. ✅ Deploy and you're done! | شغّل البوت واستمتع!
+
+---
+
+## 👤 Developer | المطوّر
+
+- **Name | الاسم**: Tyrox
+- **📺 YouTube**: [Tyrox0](https://www.youtube.com/@Tyrox0)
+- **💬 Discord**: Coming Soon
+
+🎮 Made with ❤️ by Tyrox for the Minecraft community.  
+🎮 تم تطويره بحب من Tyrox لمجتمع ماينكرافت.
+
+---
+
+## 📜 License | الرخصة
+
+This project is licensed under the MIT License.  
+هذا المشروع مرخّص تحت رخصة MIT.
